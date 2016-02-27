@@ -32,7 +32,6 @@ public class Gps03 extends Activity implements LocationListener {
 
         // GPSサービス取得
         manager = (LocationManager)getSystemService(LOCATION_SERVICE);
-        latitude = (TextView)findViewById(R.id.);
         latitude = (TextView)findViewById(R.id.latitude_id);
         longitude = (TextView)findViewById(R.id.longitude_id);
         altitude = (TextView)findViewById(R.id.altitude_id);
